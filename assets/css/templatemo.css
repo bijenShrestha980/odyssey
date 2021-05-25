@@ -37,6 +37,11 @@ p, a {font-weight: 400;}
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 300;
 }
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .regular-400 {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 400;
@@ -63,9 +68,26 @@ p, a {font-weight: 400;}
 .navbar-light .navbar-nav .nav-link{animation: transitionIn 2s;}
 .nav_logo {
   height: 50px;
-/*  position: absolute;
-  left: 50px;
-  top: 13px;*/
+}
+/*dropdown*/
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background: #fff;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    left: -40px;
+    top: 40px;
+    animation: transitionIn 0.5s;
+    z-index: 1;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
 }
   /* Home */
   #index_banner {
