@@ -23,6 +23,12 @@ TemplateMo 561 Purple Buzz
 https://templatemo.com/tm-561-purple-buzz
 
 -->
+<?php
+session_start();
+$name = "";
+$connection = mysqli_connect("localhost", "root", "");
+$db = mysqli_select_db($connection, "db");
+?>
 </head>
 
 <body>
@@ -45,20 +51,23 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallary</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.php">Pricing</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="departments.php">Departments</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
+                <!-- <div class="navbar align-self-center d-flex">
                     <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
                     <div class="dropdown">
                         <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
@@ -74,7 +83,7 @@ https://templatemo.com/tm-561-purple-buzz
                       </div>
                   </div>
                   <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
-              </div>
+              </div> -->
           </div>
       </div>
   </nav>
@@ -97,11 +106,11 @@ https://templatemo.com/tm-561-purple-buzz
 
                     <div class="py-5 row d-flex align-items-center">
                         <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5" style="animation: transitionIn 2s;">
-                            <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line">
+                            <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line" style="color: #ccccdd ">
                                 <strong>Welcome to the official site of Odyssey Nepal</strong> 
                                 <br>
                             </h1>
-                            <p class="banner-body py-3 mx-0 px-0" style="color: #bcc0c4">
+                            <p class="banner-body py-3 mx-0 px-0" style="color: #e6eaed">
                                 We are a group of People who are determined to be a part of <a rel="nofollow" href="https://templatemo.com/page/1" target="_parent">social activity</a> and abolish the problems in every possible way. <a rel="nofollow" href="https://boxicons.com/" target="_blank">Social work</a> is our main Aim.
                             </p>
                             <!-- <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a> -->
@@ -113,10 +122,10 @@ https://templatemo.com/tm-561-purple-buzz
 
                     <div class="py-5 row d-flex align-items-center">
                         <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                            <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line" style=" color: #ccccdd">
                                 Together for positive change
                             </h1>
-                            <p class="banner-body py-3" style="color: #bcc0c4">
+                            <p class="banner-body py-3" style="color: #e6eaed">
                                 We act together to bring positive change in society.
                             </p>
                             <!-- <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a> -->
@@ -124,24 +133,6 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
 
                 </div>
-                <!-- <div class="carousel-item">
-
-                    <div class="py-5 row d-flex align-items-center">
-                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                            <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
-                                What We Achieve
-                            </h1>
-                            <p class="banner-body py-3" style="color: #bcc0c4">
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                irure dolor in reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-                            </p>
-                            <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
-                        </div>
-                    </div>
-
-                </div> -->
             </div>
             <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                 <i class='bx bx-chevron-left'></i>
@@ -161,7 +152,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 
 <!-- Start Service -->
-<section class="service-wrapper py-3">
+<section class="service-wrapper">
     <div class="container-fluid pb-3">
         <div class="row">
             <h2 class="h2 text-center col-12 py-5 semi-bold-600">Social Services</h2>
@@ -177,339 +168,169 @@ https://templatemo.com/tm-561-purple-buzz
         </p>
     </div>
 
-    <div class="service-tag py-5 bg-secondary">
-        <div class="col-md-12">
-            <ul class="nav d-flex justify-content-center">
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary active shadow rounded-pill text-light px-4 light-300" href="#" data-filter=".project">All</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".graphic">Donations</a>
-                </li>
-                <li class="filter-btn nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".ui">Social Activities</a>
-                </li>
-                <li class="nav-item mx-lg-4">
-                    <a class="filter-btn nav-link btn-outline-primary rounded-pill text-light px-4 light-300" href="#" data-filter=".branding">Community</a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-</section>
-
-<section class="container overflow-hidden py-5">
-    <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project ui branding">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="service card-img" src="./assets/img/service-01.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">UI/UX design</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
+    <!-- Start View Work -->
+    <section class="bg-secondary">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-lg-2 col-12 text-light align-items-center">
+                    <i class='display-1 bx bxs-box bx-lg'></i>
                 </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-02.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Social Media</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
+                <div class="col-lg-7 col-12 text-light pt-2">
+                    <h3 class="h4 light-300">Great transformations successful</h3>
+                    <p class="light-300">Quis ipsum suspendisse ultrices gravida.</p>
                 </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project branding">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-03.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Marketing</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
+                <div class="col-lg-3 col-12 pt-4">
+                    <a href="work.php" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">View Our Work</a>
                 </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-04.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Graphic</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
-                </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-05.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Digtal Marketing</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
-                </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project branding">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-06.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Market Research</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
-                </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project branding">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-07.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Business</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
-                </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-        <!-- Start Recent Work -->
-        <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic branding">
-            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-                <img class="card-img" src="./assets/img/service-08.jpg" alt="Card image">
-                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                    <div class="service-work-content text-left text-light">
-                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">Branding</span>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                    </div>
-                </div>
-            </a>
-        </div><!-- End Recent Work -->
-
-    </div>
-</section>
-<!-- End Service -->
-
-
-
-
-
-
-<!-- Start View Work -->
-<section class="bg-secondary">
-    <div class="container py-5">
-        <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-2 col-12 text-light align-items-center">
-                <i class='display-1 bx bxs-box bx-lg'></i>
-            </div>
-            <div class="col-lg-7 col-12 text-light pt-2">
-                <h3 class="h4 light-300">Great transformations successful</h3>
-                <p class="light-300">Quis ipsum suspendisse ultrices gravida.</p>
-            </div>
-            <div class="col-lg-3 col-12 pt-4">
-                <a href="work.php" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">View Our Work</a>
             </div>
         </div>
-    </div>
-</section>
-<!-- End View Work -->
+    </section>
+    <!-- End View Work -->
 
-<!-- Start Recent Work -->
-<section class="py-5 mb-5">
-    <div class="container">
-        <div class="recent-work-header row text-center pb-5">
-            <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Recent Works</h2>
-        </div>
-        <div class="row gy-5 g-lg-5 mb-4">
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-01.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Our Group</h3>
-                            <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-02.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Connectivity</h3>
-                            <p class="card-text">Psum officia anim id est laborum.</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-03.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Meeting</h3>
-                            <p class="card-text">Sum dolor sit consencutur</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-04.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Public Relation</h3>
-                            <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-05.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Donation</h3>
-                            <p class="card-text">Put enim ad minim veniam</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-md-4 mb-3">
-                <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-06.jpg" alt="Card image">
-                    <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                            <h3 class="card-title light-300">Award Ceremony</h3>
-                            <p class="card-text">Mollit anim id est laborum.</p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-        </div>
-    </div>
-</section>
-<!-- End Recent Work -->
-
-
-
-<!-- Start Footer -->
-<footer class="bg-secondary pt-4">
-    <div class="container">
-        <div class="row py-4">
-
-            <div class="col-lg-3 col-12 align-left">
-                <a class="navbar-brand" href="index.php">
-                    <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
-                    <img class="nav_logo" src="./assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
-                    <span class="text-light h5">Odyssey</span> <span class="text-light h5 semi-bold-600">Nepal</span>
-                </a>
-                <p class="text-light my-lg-4 my-2">
-                    You can contact us through these social sites.
-                </p>
-                <ul class="list-inline footer-icons light-300">
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.facebook.com/odysseyynepal">
-                            <i class='bx bxl-facebook-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.linkedin.com/">
-                            <i class='bx bxl-linkedin-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
-                            <i class='bx bxl-whatsapp-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.flickr.com/">
-                            <i class='bx bxl-flickr-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.medium.com/">
-                            <i class='bx bxl-medium-square bx-md' ></i>
-                        </a>
-                    </li>
-                </ul>
+    <!-- Start Recent Work -->
+    <section class="py-5 mb-5">
+        <div class="container">
+            <div class="recent-work-header row text-center pb-5">
+                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Recent Works</h2>
             </div>
+            <div class="row gy-5 g-lg-5 mb-4">
 
-            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
-                    <ul class="list-unstyled text-light light-300">
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/recent-works-01.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Our Group</h3>
+                                <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/recent-works-02.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Connectivity</h3>
+                                <p class="card-text">Psum officia anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/recent-works-03.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Meeting</h3>
+                                <p class="card-text">Sum dolor sit consencutur</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/recent-works-04.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Public Relation</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/recent-works-05.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Donation</h3>
+                                <p class="card-text">Put enim ad minim veniam</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-md-4 mb-3">
+                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/recent-works-06.jpg" alt="Card image">
+                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
+                                <h3 class="card-title light-300">Award Ceremony</h3>
+                                <p class="card-text">Mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End Recent Work -->
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-4 col-12 align-left">
+                    <a class="navbar-brand" href="index.php">
+                        <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
+                        <img class="nav_logo" src="./assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
+                        <span class="text-light h5">Odyssey</span> <span class="text-light h5 semi-bold-600">Nepal</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        You can connect us through these social sites.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.facebook.com/odysseyynepal">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
                         </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                                <i class='bx bxl-twitter bx-md'></i>
+                            </a>
                         </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallary</a>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.instagram.com/odysseyynepal/?fbclid=IwAR0lltjzHYv6y_BKoWVEVWKK5A217zo3RT-B5B8EX99M890VWSRqLKUnaV4">
+                                <i class='bx bxl-instagram bx-md'></i>
+                            </a>
                         </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallary</a>
+                            </li>
                             <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>
                             </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                        <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
-                        <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Donations</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Services</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Our Community</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Exploraion</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Relations</a>
                             </li>
                         </ul>
                     </div>

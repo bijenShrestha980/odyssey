@@ -45,20 +45,23 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallary</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.php">Pricing</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="departments.php">Departments</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
+                <!-- <div class="navbar align-self-center d-flex">
                     <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
                     <div class="dropdown">
                         <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
@@ -74,7 +77,7 @@ https://templatemo.com/tm-561-purple-buzz
                       </div>
                   </div>
                   <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
-              </div>
+              </div> -->
           </div>
       </div>
   </nav>
@@ -271,14 +274,14 @@ https://templatemo.com/tm-561-purple-buzz
     <div class="container">
         <div class="row py-4">
 
-            <div class="col-lg-3 col-12 align-left">
+            <div class="col-lg-4 col-12 align-left">
                 <a class="navbar-brand" href="index.php">
                     <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
                     <img class="nav_logo" src="./assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
                     <span class="text-light h5">Odyssey</span> <span class="text-light h5 semi-bold-600">Nepal</span>
                 </a>
                 <p class="text-light my-lg-4 my-2">
-                    You can contact us through these social sites.
+                    You can connect us through these social sites.
                 </p>
                 <ul class="list-inline footer-icons light-300">
                     <li class="list-inline-item m-0">
@@ -287,30 +290,20 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.linkedin.com/">
-                            <i class='bx bxl-linkedin-square bx-md'></i>
+                        <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                            <i class='bx bxl-twitter bx-md'></i>
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
-                            <i class='bx bxl-whatsapp-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.flickr.com/">
-                            <i class='bx bxl-flickr-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.medium.com/">
-                            <i class='bx bxl-medium-square bx-md' ></i>
+                        <a class="text-light" target="_blank" href="https://www.instagram.com/odysseyynepal/?fbclid=IwAR0lltjzHYv6y_BKoWVEVWKK5A217zo3RT-B5B8EX99M890VWSRqLKUnaV4">
+                            <i class='bx bxl-instagram bx-md'></i>
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+            <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
@@ -326,30 +319,6 @@ https://templatemo.com/tm-561-purple-buzz
                             </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                        <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
-                        <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Donations</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Services</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Our Community</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Exploraion</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Relations</a>
                             </li>
                         </ul>
                     </div>

@@ -45,14 +45,17 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallary</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.php">Pricing</a>
-                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="departments.php">Departments</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.php">Contact</a>
                         </li>
@@ -95,53 +98,56 @@ https://templatemo.com/tm-561-purple-buzz
     <div class="row pb-4">
         <!-- Start Contact Form -->
         <div class="col-lg-12 ">
-            <form class="contact-form row" method="post" action="#" role="form">
+            <?php?>
+            <form class="contact-form row" method="post" action="add/add_details.php" role="form">
 
                 <div class="col-lg-6 mb-4">
                     <div class="form-floating">
-                        <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Full Name" required>
+                        <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="name" placeholder="Full Name" required>
                         <label for="floatingname light-300">Full Name</label>
                     </div>
                 </div><!-- End Input Name -->
 
                 <div class="col-lg-6 mb-4">
                     <div class="form-floating">
-                        <input type="text" class="form-control form-control-lg light-300" id="floatingaddress" name="inputaddress" placeholder="Address">
+                        <input type="text" class="form-control form-control-lg light-300" id="floatingaddress" name="address" placeholder="Address">
                         <label for="floatingaddress light-300">Address</label>
                     </div>
                 </div><!-- End Input Address -->
 
                 <div class="col-lg-6 mb-4">
                     <div class="form-floating">
-                        <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="inputphone" placeholder="Phone">
+                        <input type="text" class="form-control form-control-lg light-300" id="floatingphone" name="phone" placeholder="Phone">
                         <label for="floatingphone light-300">Phone</label>
                     </div>
                 </div><!-- End Input Phone -->
 
                 <div class="col-lg-6 mb-4">
                     <div class="form-floating">
-                        <input type="text" class="form-control form-control-lg light-300" id="floatingage" name="inputage" placeholder="Age">
+                        <input type="text" class="form-control form-control-lg light-300" id="floatingage" name="age" placeholder="Age">
                         <label for="floatingage light-300">Age</label>
                     </div>
                 </div><!-- End Input Age -->
 
                 <div class="col-12">
                     <div class="form-floating mb-4">
-                        <input type="email" class="form-control form-control-lg light-300" id="floatingemail" name="inputsubject" placeholder="Email" required>
+                        <input type="email" class="form-control form-control-lg light-300" id="floatingemail" name="email" placeholder="Email" required>
                         <label for="floatingemail light-300">Email</label>
                     </div>
                 </div><!-- End Input Email -->
 
                 <div class="col-lg-6 mb-4">
                     <div class="form-floating">
-                        <input type="password" class="form-control form-control-lg light-300" id="floatingpassword" name="inputpassword" placeholder="Password" required>
+                        <i class='bx bxs-hide' onclick="seePassword()"></i>
+                        <input type="password" class="form-control form-control-lg light-300" id="floatingpassword" name="password" placeholder="Password" required>
                         <label for="floatingpassword light-300">Create Password</label>
                     </div>
                 </div><!-- End Input Password -->
 
                 <div class="col-lg-6 mb-4">
-                    <div class="form-floating">
-                        <input type="password" class="form-control form-control-lg light-300" id="floatingpassword1" name="inputpassword" placeholder="Password" required>
+                    <div class="form-floating" style="position: relative;">
+                        <i class='bx bxs-hide' onclick="seePassword1()"></i>
+                        <input type="password" class="form-control form-control-lg light-300" id="floatingpassword1" name="password" placeholder="Password" required>
                         <label for="floatingpassword light-300">Re-enter Password</label>
                     </div>
                 </div><!-- End Input Password -->
@@ -151,6 +157,7 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
 
             </form>
+            <?php?>
         </div>
         <!-- End Contact Form -->
 
@@ -165,14 +172,14 @@ https://templatemo.com/tm-561-purple-buzz
     <div class="container">
         <div class="row py-4">
 
-            <div class="col-lg-3 col-12 align-left">
+            <div class="col-lg-4 col-12 align-left">
                 <a class="navbar-brand" href="index.php">
                     <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
                     <img class="nav_logo" src="./assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
                     <span class="text-light h5">Odyssey</span> <span class="text-light h5 semi-bold-600">Nepal</span>
                 </a>
                 <p class="text-light my-lg-4 my-2">
-                    You can contact us through these social sites.
+                    You can connect us through these social sites.
                 </p>
                 <ul class="list-inline footer-icons light-300">
                     <li class="list-inline-item m-0">
@@ -181,30 +188,20 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.linkedin.com/">
-                            <i class='bx bxl-linkedin-square bx-md'></i>
+                        <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                            <i class='bx bxl-twitter bx-md'></i>
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
-                            <i class='bx bxl-whatsapp-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.flickr.com/">
-                            <i class='bx bxl-flickr-square bx-md'></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.medium.com/">
-                            <i class='bx bxl-medium-square bx-md' ></i>
+                        <a class="text-light" target="_blank" href="https://www.instagram.com/odysseyynepal/?fbclid=IwAR0lltjzHYv6y_BKoWVEVWKK5A217zo3RT-B5B8EX99M890VWSRqLKUnaV4">
+                            <i class='bx bxl-instagram bx-md'></i>
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h2>
+            <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
@@ -220,30 +217,6 @@ https://templatemo.com/tm-561-purple-buzz
                             </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                        <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
-                        <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Donations</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Services</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Our Community</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Exploraion</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Relations</a>
                             </li>
                         </ul>
                     </div>
@@ -310,27 +283,29 @@ https://templatemo.com/tm-561-purple-buzz
                 return false;
             });
         });
-            function match() {
-                var match = document.getElementById("floatingpassword");
-                var match1 = document.getElementById("floatingpassword1");
-
-                if(floatingpassword != floatingpassword1) {
-                    alert("Yours passwords do not match");
-                } else {
-                    curatio.webdb.match(match.value);
-                    match.value = "";
-                    alert("Your Registration was successfull");
-                    setTimeout(function () {
-                        window.location.href = "login.php"; 
-                    }, 1000);
-                }
+            function seePassword() {
+              var x = document.getElementById("floatingpassword");
+              if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
             }
-        </script>
-        <!-- Templatemo -->
-        <script src="assets/js/templatemo.js"></script>
-        <!-- Custom -->
-        <script src="assets/js/custom.js"></script>
+        }
+        function seePassword1() {
+            var x = document.getElementById("floatingpassword1");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
 
-    </body>
+    </script>
+    <!-- Templatemo -->
+    <script src="assets/js/templatemo.js"></script>
+    <!-- Custom -->
+    <script src="assets/js/custom.js"></script>
 
-    </html>
+</body>
+
+</html>

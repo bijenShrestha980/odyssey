@@ -20,14 +20,14 @@ Table of contents
 html {font-family: 'Open Sans', sans-serif;}
 body {animation: transitionIn 1s;}
 @keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 /* Typography */
 p, a {font-weight: 400;}
@@ -38,9 +38,9 @@ p, a {font-weight: 400;}
   font-weight: 300;
 }
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .regular-400 {
   font-family: 'Open Sans', sans-serif !important;
@@ -76,62 +76,62 @@ ul {
 /*dropdown*/
 
 .dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 .dropdown-content {
-    display: none;
-    background: #fff;
-    width: 150px;
-    border-radius: 20px;
-    text-align: center;
-    left: -40px;
-    top: 40px;
-    animation: transitionIn 0.5s;
-    z-index: 1;
-  }
-.dropdown:hover .dropdown-content {
-    display: block;
-    position: absolute;
+  display: none;
+  background: #fff;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  left: -40px;
+  top: 40px;
+  animation: transitionIn 0.5s;
+  z-index: 1;
 }
-  /* Home */
-  #index_banner {
-    background-image: url('./../img/service-08.jpg');
-    background-position: center center; background-size: cover;
-    height: 100%;
-    min-height: 60vh;
-    width: 100%;
-  }
-  #index_banner .carousel-item {
-    min-height: 60vh;
-  }
-  #index_banner .carousel-control-prev i,
-  #index_banner .carousel-control-next i {
-    color: #6266ea !important;
-    text-decoration: none;
-    font-size: 4em;
-  }
-  #index_banner .carousel-inner {
-    height: 80vh;
-  }
-  #index_banner .carousel-indicators li,
-  #index_banner .carousel-indicators.active {
-    background-color: #6266ea !important;
-  }
-  .service-wrapper .service-footer {
-    max-width: 720px;
-  }
-  .service-work.card {
-    border-radius: 10px !important;
-    cursor: pointer;
-  }
-  .service-work .service-work-vertical {
-   background: rgb(0,0,0);
-   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
-   background-size: 300% 300%;
-   background-position: 0% 100%;
-   transition: .5s;
- }
- .service-work .service-work-vertical:hover {
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+}
+/* Home */
+#index_banner {
+  background-image: url('./../img/service-08.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 60vh;
+  width: 100%;
+}
+#index_banner .carousel-item {
+  min-height: 60vh;
+}
+#index_banner .carousel-control-prev i,
+#index_banner .carousel-control-next i {
+  color: #6266ea !important;
+  text-decoration: none;
+  font-size: 4em;
+}
+#index_banner .carousel-inner {
+  height: 80vh;
+}
+#index_banner .carousel-indicators li,
+#index_banner .carousel-indicators.active {
+  background-color: #6266ea !important;
+}
+.service-wrapper .service-footer {
+  max-width: 720px;
+}
+.service-work.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.service-work .service-work-vertical {
+ background: rgb(0,0,0);
+ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+ background-size: 300% 300%;
+ background-position: 0% 100%;
+ transition: .5s;
+}
+.service-work .service-work-vertical:hover {
   background-position: 0% 0%;
   transition: .5s;
 }
@@ -231,4 +231,20 @@ ul {
 /* Contact */
 #floatingtextarea {
   height: 150px
+}
+/* Login */
+
+.error-msg{
+  position: absolute;
+  font-weight: 500;
+}
+
+/* Signup */
+.form-floating i{
+  float: right;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
