@@ -1,0 +1,30 @@
+@media (max-width: 1430px) { 
+	.about_us{
+		width: 650px;
+	}
+ }
+ @media (max-width: 1340px) { 
+	.about_us{
+		width: 550px;
+	}
+ }
+  @media (max-width: 1150px) { 
+	.about_us{
+		width: 470px;
+	}
+ }
+@media (max-width: 767px) { 
+	.about_us{
+		width: 520px;
+	}
+ }
+@media (max-width: 530px) { 
+	.about_us{
+		width: 335px;
+	}
+ }
+ @media (max-width: 320px) { 
+	.about_us{
+		width: 300px;
+	}
+ }

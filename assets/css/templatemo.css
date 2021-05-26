@@ -68,7 +68,11 @@ ul {
 .navbar-light .navbar-nav .nav-link{animation: transitionIn 2s;}
 .nav_logo {
   height: 50px;
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 40px;
 }
+.odyssey{color: #045cad}
 /*dropdown*/
 
 .dropdown {
@@ -161,6 +165,9 @@ ul {
   transition: .5s;
 }
 /* About */
+.about_us{
+  width: 700px
+}
 #work_banner {
   background-image: url('./../img/service-03.jpg');
   background-position: center center; background-size: cover;
