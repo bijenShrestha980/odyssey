@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Odyssey Nepal - About Us Page</title>
+    <title>Odyssey Nepal - Our Team Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="apple-touch-icon" href="assets/img/apple-icon.png"> -->
@@ -88,7 +88,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Start Our Advisor -->
     <section class="container py-5">
         <h2 class="h2 py-5 text-center">Our Advisors</h2>
-        <div class="row">
+        <div class="row py-5" style="justify-content: center;">
             <div class="team-member col-md-3">
                 <img class="team-member-img img-fluid p-4" src="./assets/img/advisors/resham.jpg" alt="Card image">
                 <ul class="team-member-caption list-inline text-center pt-4 text-muted light-300">
@@ -164,6 +164,8 @@ https://templatemo.com/tm-561-purple-buzz
                     <li>Narayan Roka</li>
                 </ul>
             </div>
+        </div>
+        <div class="row" style="justify-content: center;">
             <div class="team-member col-md-3">
                 <img class="team-member-img img-fluid p-4" src="./assets/img/advisors/suman.jpg" alt="Card image">
                 <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
@@ -345,11 +347,14 @@ https://templatemo.com/tm-561-purple-buzz
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallary</a>
                             </li>
-                            <!-- <li class="pb-2">
-                                    <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>
-                                </li> -->
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
                             </li>
                         </ul>
                 </div>

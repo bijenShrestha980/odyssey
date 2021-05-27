@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Odyssey Nepal - Work Page</title>
+    <title>Odyssey Nepal - Gallary Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="apple-touch-icon" href="assets/img/apple-icon.png"> -->
