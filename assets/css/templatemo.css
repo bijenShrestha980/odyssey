@@ -341,3 +341,18 @@ ul {
     top: 20px;
     right: 10px;
 }
+
+
+/* Facebook */
+
+.fb_iframe_widget iframe {
+    width: 500px !important;
+}
+
+._2p3a {
+    width: 500px !important;
+}
+
+._2lqh {
+    width: 500px;
+}
