@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Odyssey Nepal - Gallary Page</title>
+    <title>Odyssey Nepal - Gallery Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="apple-touch-icon" href="assets/img/apple-icon.png"> -->
@@ -48,7 +48,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallary</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
@@ -85,11 +85,11 @@ https://templatemo.com/tm-561-purple-buzz
 
 
   <!-- Start Banner Hero -->
-  <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+  <div id="work_banner" class="banner-wrapper bg-light w-100 py-5" style="height: 420px">
     <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0" style="animation: transitionIn 2s; background: rgb(73 68 68 / 33%)">
         <div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
             <h1 class="banner-heading h2 display-3 pb-5 semi-bold-600 typo-space-line-center">Our Work</h1>
-            <!-- <h3 class="h4 pb-2 regular-400">Elit, sed do eiusmod tempor incididunt</h3> -->
+            <!-- <h3 class="h4 pb-2 regular-400">Elit, sed do eiusmod tempor incididunt</h3>
             <p class="banner-body pb-2 light-300">
                 Vector illustration <a class="text-white" href="http://freepik.com/" target="_blank">Freepik</a>.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -97,7 +97,7 @@ https://templatemo.com/tm-561-purple-buzz
                 aliqua. Quis ipsum suspendisse ultrices gravida. Risus
                 commodo viverra maecenas accumsan lacus.
             </p>
-            <!-- <a class="btn rounded-pill btn-outline-light px-4 me-4 light-300" href="#">Learn More</a>
+            <a class="btn rounded-pill btn-outline-light px-4 me-4 light-300" href="#">Learn More</a>
             <a class="btn rounded-pill btn-secondary text-light px-4 light-300" href="contact.php">Contact Us</a> -->
 
         </div>
@@ -107,7 +107,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 <!-- Start Our Work -->
 <section class="container py-5">
-    <div class="row justify-content-center my-5">
+    <!-- <div class="row justify-content-center my-5">
         <div class="filter-btns shadow-md rounded-pill text-center col-auto">
             <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active" data-filter=".project" href="#">All</a>
             <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".business" href="#">Community</a>
@@ -115,9 +115,9 @@ https://templatemo.com/tm-561-purple-buzz
             <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".social" href="#">Exploration</a>
             <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".graphic" href="#">Relations</a>
         </div>
-    </div>
+    </div> -->
 
-    <div class="row projects gx-lg-5">
+    <div class="row projects gx-lg-5 py-5">
         <a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
             <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
                 <img class="card-img-top" src="./assets/img/works/our-work-01.jpg" alt="...">
@@ -310,7 +310,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallary</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
                         </li>
                         <!-- <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>

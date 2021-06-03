@@ -350,9 +350,6 @@ ul {
 }
 
 ._2p3a {
-    width: 500px !important;
-}
-
-._2lqh {
-    width: 500px;
+    min-width: 500px !important;
+    width: none !important;
 }

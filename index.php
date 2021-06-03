@@ -23,12 +23,12 @@ TemplateMo 561 Purple Buzz
 https://templatemo.com/tm-561-purple-buzz
 
 -->
-    <?php
-    session_start();
-    $name = "";
-    $connection = mysqli_connect("localhost", "root", "");
-    $db = mysqli_select_db($connection, "db");
-    ?>
+<?php
+session_start();
+$name = "";
+$connection = mysqli_connect("localhost", "root", "");
+$db = mysqli_select_db($connection, "db");
+?>
 </head>
 
 <body>
@@ -54,7 +54,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallary</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
@@ -84,35 +84,34 @@ https://templatemo.com/tm-561-purple-buzz
                   </div>
                   <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
               </div> -->
-            </div>
-        </div>
-    </nav>
-    <!-- Close Header -->
+          </div>
+      </div>
+  </nav>
+  <!-- Close Header -->
 
 
-    <!-- Start Banner Hero -->
-    <div class="banner-wrapper bg-light">
-        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+  <!-- Start Banner Hero -->
+  <div class="banner-wrapper bg-light">
+    <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
 
-            <!-- Start slider -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="background: rgb(73 68 68 / 33%)">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+        <!-- Start slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="background: rgb(73 68 68 / 33%)">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
 
-                        <div class="py-5 row d-flex align-items-center">
-                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5" style="animation: transitionIn 2s;">
-                                <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line" style="color: #ccccdd ">
-                                    <strong>Welcome to the official site of Odyssey Nepal</strong>
-                                    <br>
-                                </h1>
-                                <p class="banner-body py-3 mx-0 px-0" style="color: #e6eaed">
+                    <div class="py-5 row d-flex align-items-center">
+                        <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5" style="animation: transitionIn 2s;">
+                            <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line" style="color: #ccccdd ">
+                                <strong>Welcome to the official site of Odyssey Nepal</strong>
+                                <br>
+                            </h1>
+                                <!-- <p class="banner-body py-3 mx-0 px-0" style="color: #e6eaed">
                                     We are a group of People who are determined to be a part of <a rel="nofollow" href="https://templatemo.com/page/1" target="_parent">social activity</a> and abolish the problems in every possible way. <a rel="nofollow" href="https://boxicons.com/" target="_blank">Social work</a> is our main Aim.
-                                </p>
+                                </p> -->
                                 <!-- <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a> -->
                             </div>
                         </div>
@@ -125,9 +124,9 @@ https://templatemo.com/tm-561-purple-buzz
                                 <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line" style=" color: #ccccdd">
                                     Together for positive change
                                 </h1>
-                                <p class="banner-body py-3" style="color: #e6eaed">
+                                <!-- <p class="banner-body py-3" style="color: #e6eaed">
                                     We act together to bring positive change in society.
-                                </p>
+                                </p> -->
                                 <!-- <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a> -->
                             </div>
                         </div>
@@ -152,7 +151,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Start Service -->
-    <section class="service-wrapper">
+    <!-- <section class="service-wrapper">
         <div class="container-fluid pb-3">
             <div class="row">
                 <h2 class="h2 text-center col-12 py-5 semi-bold-600">Social Services</h2>
@@ -166,11 +165,11 @@ https://templatemo.com/tm-561-purple-buzz
             <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
                 You are free to use this template for your commercial or business websites. You are not allowed to re-distribute this template ZIP file on any template collection websites. It is too easy to illegally copy and repost this template.
             </p>
-        </div>
+        </div> -->
 
 
         <!-- Start View Work -->
-        <section class="bg-secondary">
+        <!-- <section class="bg-secondary">
             <div class="container py-5">
                 <div class="row d-flex justify-content-center text-center">
                     <div class="col-lg-2 col-12 text-light align-items-center">
@@ -185,7 +184,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End View Work -->
 
         <!-- Start Recent Work -->
@@ -203,7 +202,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                                 <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                     <h3 class="card-title light-300">Our Group</h3>
-                                    <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
+                                    <!-- <p class="card-text">Ullamco laboris nisi ut aliquip ex</p> -->
                                 </div>
                             </div>
                         </a>
@@ -216,7 +215,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                                 <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                     <h3 class="card-title light-300">Connectivity</h3>
-                                    <p class="card-text">Psum officia anim id est laborum.</p>
+                                    <!-- <p class="card-text">Psum officia anim id est laborum.</p> -->
                                 </div>
                             </div>
                         </a>
@@ -229,7 +228,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                                 <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                     <h3 class="card-title light-300">Meeting</h3>
-                                    <p class="card-text">Sum dolor sit consencutur</p>
+                                    <!-- <p class="card-text">Sum dolor sit consencutur</p> -->
                                 </div>
                             </div>
                         </a>
@@ -242,7 +241,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                                 <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                     <h3 class="card-title light-300">Public Relation</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                    <!-- <p class="card-text">Lorem ipsum dolor sit amet</p> -->
                                 </div>
                             </div>
                         </a>
@@ -255,7 +254,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                                 <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                     <h3 class="card-title light-300">Donation</h3>
-                                    <p class="card-text">Put enim ad minim veniam</p>
+                                    <!-- <p class="card-text">Put enim ad minim veniam</p> -->
                                 </div>
                             </div>
                         </a>
@@ -268,7 +267,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                                 <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                     <h3 class="card-title light-300">Award Ceremony</h3>
-                                    <p class="card-text">Mollit anim id est laborum.</p>
+                                    <!-- <p class="card-text">Mollit anim id est laborum.</p> -->
                                 </div>
                             </div>
                         </a>
@@ -283,6 +282,15 @@ https://templatemo.com/tm-561-purple-buzz
         <section class="mb-5">
             <div class="container">
                 <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/odysseyynepal" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered">
+                    <span style="vertical-align: bottom; width: 340px; height: 500px;"></span>
+                </div>
+            </div>
+        </section>
+        <!-- Enf Facebook -->
+        <!-- Start Facebook -->
+        <section class="mb-5">
+            <div class="container">
+                <div class="fb-page fb_iframe_widget" data-href="https://twitter.com/NepalOdyssey?fbclid=IwAR3NrXyxKuEx8Pe29FijZNwNSJaPGGinnWgmbOhgIkd8116O6C-giegwKio" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered">
                     <span style="vertical-align: bottom; width: 340px; height: 500px;"></span>
                 </div>
             </div>
@@ -332,15 +340,15 @@ https://templatemo.com/tm-561-purple-buzz
                                     <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
                                 </li>
                                 <li class="pb-2">
-                                    <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallary</a>
+                                    <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
                                 </li>
                                 <!-- <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>
                             </li> -->
-                                <li class="pb-2">
-                                    <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                                </li>
-                            </ul>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
@@ -413,6 +421,6 @@ https://templatemo.com/tm-561-purple-buzz
         <!-- Facebook -->
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="XanR8BdA"></script>
 
-</body>
+    </body>
 
-</html>
+    </html>
