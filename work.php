@@ -118,14 +118,13 @@ https://templatemo.com/tm-561-purple-buzz
     </div> -->
 
     <div class="row projects gx-lg-5 py-5">
-        <a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
+        <a href="stationary-distribution.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
             <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
-                <img class="card-img-top" src="./assets/img/works/our-work-01.jpg" alt="...">
+                <img class="card-img-top" src="./assets/img/gallery/stationary_distribution/1.jpg" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title light-300 text-dark">Study Material Distribution</h5>
+                    <h5 class="card-title light-300 text-dark">Stationary Materials Distribution</h5>
                     <p class="card-text light-300 text-dark">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolor.
+                        Stationary Materials distribution to Children of Chulachuli-1, Ilam, Nepal. 2020 A.D.
                     </p>
                     <span class="text-decoration-none text-primary light-300">
                       Read more <i class='bx bxs-hand-right ms-1'></i>
@@ -133,7 +132,7 @@ https://templatemo.com/tm-561-purple-buzz
               </div>
           </div>
       </a>
-      <a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project graphic social">
+      <a href="#.php" class="col-sm-6 col-lg-4 text-decoration-none project graphic social">
         <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
             <img class="card-img-top" src="./assets/img/works/our-work-02.jpg" alt="...">
             <div class="card-body">
@@ -148,14 +147,14 @@ https://templatemo.com/tm-561-purple-buzz
           </div>
       </div>
   </a>
-  <a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic business">
+  <a href="#.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic business">
     <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
-        <img class="card-img-top" src="./assets/img/works/our-work-03.jpg" alt="...">
+        <img class="card-img-top" src="./assets/img/gallery/tack_distribution/3.jpg" alt="...">
         <div class="card-body">
-            <h5 class="card-title light-300 text-dark">Leading Digital Solution</h5>
+            <h5 class="card-title light-300 text-dark">Distribution Program</h5>
             <p class="card-text light-300 text-dark">
-                Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
+                Sweater and Track Suit distribution program to maoist war affected children at Ekakrit Srijansil
+                Samaj, Manamaiju, Kathmandu. 2016 A.D.
             </p>
             <span class="text-decoration-none text-primary light-300">
               Read more <i class='bx bxs-hand-right ms-1'></i>
@@ -163,7 +162,7 @@ https://templatemo.com/tm-561-purple-buzz
       </div>
   </div>
 </a>
-<a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project social business">
+<a href="#.php" class="col-sm-6 col-lg-4 text-decoration-none project social business">
     <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
         <img class="card-img-top" src="./assets/img/works/our-work-04.jpg" alt="...">
         <div class="card-body">
@@ -178,7 +177,7 @@ https://templatemo.com/tm-561-purple-buzz
       </div>
   </div>
 </a>
-<a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
+<a href="#.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
     <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
         <img class="card-img-top" src="./assets/img/works/our-work-05.jpg" alt="...">
         <div class="card-body">
@@ -193,7 +192,7 @@ https://templatemo.com/tm-561-purple-buzz
       </div>
   </div>
 </a>
-<a href="work-single.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic">
+<a href="#.php" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic">
     <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
         <img class="card-img-top" src="./assets/img/works/our-work-06.jpg" alt="...">
         <div class="card-body">
@@ -288,7 +287,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                        <a class="text-light" target="_blank" href="https://twitter.com/NepalOdyssey/status/1400059472026820609?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3ANepalOdyssey%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VtYmVkX2NsaWNrYWJpbGl0eV8xMjEwMiI6eyJidWNrZXQiOiJjb250cm9sIiwidmVyc2lvbiI6bnVsbH19%7Ctwcon%5Etimelinechrome&ref_url=https%3A%2F%2Flocalhost%2Fodyssey%2Findex.php">
                             <i class='bx bxl-twitter bx-md'></i>
                         </a>
                     </li>
@@ -301,21 +300,24 @@ https://templatemo.com/tm-561-purple-buzz
             </div>
 
             <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
-                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
-                    <ul class="list-unstyled text-light light-300">
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
-                        </li>
-                        <!-- <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>
-                        </li>
-                    -->                        <li class="pb-2">
+                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h3>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
+                    </li>
+                    <li class="pb-2">
                         <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
                     </li>
                 </ul>

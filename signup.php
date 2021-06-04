@@ -188,7 +188,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                        <a class="text-light" target="_blank" href="https://twitter.com/NepalOdyssey/status/1400059472026820609?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3ANepalOdyssey%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VtYmVkX2NsaWNrYWJpbGl0eV8xMjEwMiI6eyJidWNrZXQiOiJjb250cm9sIiwidmVyc2lvbiI6bnVsbH19%7Ctwcon%5Etimelinechrome&ref_url=https%3A%2F%2Flocalhost%2Fodyssey%2Findex.php">
                             <i class='bx bxl-twitter bx-md'></i>
                         </a>
                     </li>
@@ -201,71 +201,74 @@ https://templatemo.com/tm-561-purple-buzz
             </div>
 
             <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
-                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
-                    <ul class="list-unstyled text-light light-300">
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
-                        </li>
-                            <!-- <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>
-                            </li> -->
-                            <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                        <h2 class="h4 pb-lg-3 text-light light-300">For Contact</h2>
-                        <ul class="list-unstyled text-light light-300">
-                            <li class="pb-2">
-                                <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:+977 980-8429293">+977 980-8429293</a>
-                            </li>
-                            <li class="pb-2">
-                                <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:odysseynepal@outlook.com">odysseynepal@outlook.com</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
+                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h3 >
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
+                    </li>
+                </ul>
             </div>
 
-            <div class="w-100 bg-primary py-3">
-                <div class="container">
-                    <div class="row pt-2">
-                        <div class="col-lg-6 col-sm-12">
-                            <p class="text-lg-start text-center text-light light-300">
-                                © Copyright 2021 Odyssey Nepal. All Rights Reserved.
-                            </p>
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <p class="text-lg-end text-center text-light light-300">
-                                Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>Bijen Shrestha</strong></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">For Contact</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:+977 980-8429293">+977 980-8429293</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:odysseynepal@outlook.com">odysseynepal@outlook.com</a>
+                    </li>
+                </ul>
             </div>
 
-        </footer>
-        <!-- End Footer -->
+        </div>
+    </div>
+
+    <div class="w-100 bg-primary py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center text-light light-300">
+                        © Copyright 2021 Odyssey Nepal. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center text-light light-300">
+                        Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>Bijen Shrestha</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
 
 
-        <!-- Bootstrap -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- Load jQuery require for isotope -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Isotope -->
-        <script src="assets/js/isotope.pkgd.js"></script>
-        <!-- Page Script -->
-        <script>
-            $(window).load(function() {
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Load jQuery require for isotope -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Isotope -->
+<script src="assets/js/isotope.pkgd.js"></script>
+<!-- Page Script -->
+<script>
+    $(window).load(function() {
             // init Isotope
             var $projects = $('.projects').isotope({
                 itemSelector: '.project',
@@ -283,28 +286,28 @@ https://templatemo.com/tm-561-purple-buzz
                 return false;
             });
         });
-            function seePassword() {
-              var x = document.getElementById("floatingpassword");
-              if (x.type === "password") {
-                x.type = "text";
-            } else {
-                x.type = "password";
-            }
-        }
-        function seePassword1() {
-            var x = document.getElementById("floatingpassword1");
-            if (x.type === "password") {
-                x.type = "text";
-            } else {
-                x.type = "password";
-            }
-        }
+    function seePassword() {
+      var x = document.getElementById("floatingpassword");
+      if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+function seePassword1() {
+    var x = document.getElementById("floatingpassword1");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
 
-    </script>
-    <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
-    <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+</script>
+<!-- Templatemo -->
+<script src="assets/js/templatemo.js"></script>
+<!-- Custom -->
+<script src="assets/js/custom.js"></script>
 
 </body>
 

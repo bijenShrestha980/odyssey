@@ -80,60 +80,60 @@ https://templatemo.com/tm-561-purple-buzz
                   </div>
                   <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
               </div> -->
+          </div>
+      </div>
+  </nav>
+  <!-- Close Header -->
+
+
+  <!-- Start Banner Hero -->
+  <section class="bg-light w-100">
+    <div class="container">
+        <div class="row d-flex align-items-center py-5">
+            <div class="col-lg-6 text-start" style="animation: transitionIn 2s;">
+                <h1 class="h2 py-5 text-primary typo-space-line">About Us</h1>
+                <p class="light-300 text-muted" style="text-align: justify;">
+                    Solving real problems takes real commitment and vision. Odyssey Nepal is an organization established in
+                    2021 A.D. We are officially registered at Kathmandu District Administration Office and
+                    affiliated to Social Welfare Council. Our Head office is situated at Tokha Municipality
+                    Kathmandu, Nepal. Our network connecting more than 15 districts of Nepal and
+                    Different other countries too.
+                    Odyssey Nepal works to eradicate social problems that occurs day to day or we can say that we work for
+                    every social cause that is important regardless the circumstances. Odysseyians are the team of literate
+                    and professional's, youth who are committed and determined to work for the development of the country.
+                    We solely works for social cause and promotes social harmony.
+                </p>
+                <p class="light-300 text-muted" style="text-align: justify;">
+                    <strong class="text-secondary">We see differently:</strong> Our multi-disciplinary perspective helps us see challenges in unique ways.
+                </p>
+                <p class="light-300 text-muted" style="text-align: justify;">
+                    <strong class="text-secondary">We think differently:</strong> We apply leadership and expertise to social issues and find unique solutions.
+                </p>
+                <p class="light-300 text-muted" style="text-align: justify;">
+                    <strong class="text-secondary">We act responsibly:</strong> Our passion and perseverance create lasting change.
+                    We make a difference at home and around the world. Our members can be found in your community
+                    and across the globe.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img class="about_us" src="./assets/img/service-05.jpg">
             </div>
         </div>
-    </nav>
-    <!-- Close Header -->
+    </div>
+</section>
+<!-- End Banner Hero -->
 
-
-    <!-- Start Banner Hero -->
-    <section class="bg-light w-100">
-        <div class="container">
-            <div class="row d-flex align-items-center py-5">
-                <div class="col-lg-6 text-start" style="animation: transitionIn 2s;">
-                    <h1 class="h2 py-5 text-primary typo-space-line">About Us</h1>
-                    <p class="light-300 text-muted" style="text-align: justify;">
-                        Solving real problems takes real commitment and vision. Odyssey Nepal is an organization established in
-                        2021 A.D. We are officially registered at Kathmandu District Administration Office and
-                        affiliated to Social Welfare Council. Our Head office is situated at Tokha Municipality
-                        Kathmandu, Nepal. Our network connecting more than 15 districts of Nepal and
-                        Different other countries too.
-                        Odyssey Nepal works to eradicate social problems that occurs day to day or we can say that we work for
-                        every social cause that is important regardless the circumstances. Odysseyians are the team of literate
-                        and professional's, youth who are committed and determined to work for the development of the country.
-                        We solely works for social cause and promotes social harmony.
-                    </p>
-                    <p class="light-300 text-muted" style="text-align: justify;">
-                        <strong class="text-secondary">We see differently:</strong> Our multi-disciplinary perspective helps us see challenges in unique ways.
-                    </p>
-                    <p class="light-300 text-muted" style="text-align: justify;">
-                        <strong class="text-secondary">We think differently:</strong> We apply leadership and expertise to social issues and find unique solutions.
-                    </p>
-                    <p class="light-300 text-muted" style="text-align: justify;">
-                        <strong class="text-secondary">We act responsibly:</strong> Our passion and perseverance create lasting change.
-                        We make a difference at home and around the world. Our members can be found in your community
-                        and across the globe.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <img class="about_us" src="./assets/img/service-05.jpg">
-                </div>
+<!-- Start Choice -->
+<section class="why-us banner-bg bg-light">
+    <div class="container my-4">
+        <div class="row">
+            <div class="banner-img col-lg-5">
+                <img src="./assets/img/gallery/history.jpg" class="rounded img-fluid" alt="" style="box-shadow: 0 25px 60px #777;">
             </div>
-        </div>
-    </section>
-    <!-- End Banner Hero -->
-
-    <!-- Start Choice -->
-    <section class="why-us banner-bg bg-light">
-        <div class="container my-4">
-            <div class="row">
-                <div class="banner-img col-lg-5">
-                    <img src="./assets/img/work.svg" class="rounded img-fluid" alt="">
-                </div>
-                <div class="banner-content col-lg-7 align-self-end">
-                    <h2 class="h2 pb-3">Why you choose us?</h2>
-                    <p class="text-muted pb-5 light-300">
-                        You are allowed to download and use this Purple Buzz template for your websites. You are <strong>not allowed</strong> to re-distribute this template ZIP file on other template websites. It is quite easy to simply copy and repost the ZIP file on any <a rel="nofollow" href="https://www.google.com/search?q=free+css" target="_blank">Free CSS collection</a> websites.</p>
+            <div class="banner-content col-lg-7 align-self-end">
+                <h2 class="h2 pb-3">Our History</h2>
+                <p class="text-muted pb-5 light-300">
+                    You are allowed to download and use this Purple Buzz template for your websites. You are <strong>not allowed</strong> to re-distribute this template ZIP file on other template websites. It is quite easy to simply copy and repost the ZIP file on any <a rel="nofollow" href="https://www.google.com/search?q=free+css" target="_blank">Free CSS collection</a> websites.</p>
                 </div>
             </div>
         </div>
@@ -204,7 +204,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                            <a class="text-light" target="_blank" href="https://twitter.com/NepalOdyssey/status/1400059472026820609?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3ANepalOdyssey%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VtYmVkX2NsaWNrYWJpbGl0eV8xMjEwMiI6eyJidWNrZXQiOiJjb250cm9sIiwidmVyc2lvbiI6bnVsbH19%7Ctwcon%5Etimelinechrome&ref_url=https%3A%2F%2Flocalhost%2Fodyssey%2Findex.php/">
                                 <i class='bx bxl-twitter bx-md'></i>
                             </a>
                         </li>
@@ -217,7 +217,7 @@ https://templatemo.com/tm-561-purple-buzz
                 </div>
 
                 <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
-                    <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
+                    <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h3>
                         <ul class="list-unstyled text-light light-300">
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
@@ -228,57 +228,60 @@ https://templatemo.com/tm-561-purple-buzz
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
                             </li>
-                            <!-- <li class="pb-2">
-                                    <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="pricing.php">Price</a>
-                                </li> -->
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
+                            </li>
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
                             </li>
                         </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h2 class="h4 pb-lg-3 text-light light-300">For Contact</h2>
-                    <ul class="list-unstyled text-light light-300">
-                        <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:+977 980-8429293">+977 980-8429293</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:odysseynepal@outlook.com">odysseynepal@outlook.com</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="w-100 bg-primary py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-lg-6 col-sm-12">
-                        <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Odyssey Nepal. All Rights Reserved.
-                        </p>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>Bijen Shrestha</strong></a>
-                        </p>
+
+                    <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                        <h2 class="h4 pb-lg-3 text-light light-300">For Contact</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:+977 980-8429293">+977 980-8429293</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:odysseynepal@outlook.com">odysseynepal@outlook.com</a>
+                            </li>
+                        </ul>
                     </div>
+
                 </div>
             </div>
-        </div>
 
-    </footer>
-    <!-- End Footer -->
+            <div class="w-100 bg-primary py-3">
+                <div class="container">
+                    <div class="row pt-2">
+                        <div class="col-lg-6 col-sm-12">
+                            <p class="text-lg-start text-center text-light light-300">
+                                © Copyright 2021 Odyssey Nepal. All Rights Reserved.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p class="text-lg-end text-center text-light light-300">
+                                Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>Bijen Shrestha</strong></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
-    <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+        </footer>
+        <!-- End Footer -->
 
-</body>
+        <!-- Bootstrap -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Templatemo -->
+        <script src="assets/js/templatemo.js"></script>
+        <!-- Custom -->
+        <script src="assets/js/custom.js"></script>
 
-</html>
+    </body>
+
+    </html>

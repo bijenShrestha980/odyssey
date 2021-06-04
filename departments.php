@@ -419,7 +419,7 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </li>
                     <li class="list-inline-item m-0">
-                        <a class="text-light" target="_blank" href="https://www.twitter.com/">
+                        <a class="text-light" target="_blank" href="https://twitter.com/NepalOdyssey/status/1400059472026820609?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3ANepalOdyssey%7Ctwgr%5EeyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VtYmVkX2NsaWNrYWJpbGl0eV8xMjEwMiI6eyJidWNrZXQiOiJjb250cm9sIiwidmVyc2lvbiI6bnVsbH19%7Ctwcon%5Etimelinechrome&ref_url=https%3A%2F%2Flocalhost%2Fodyssey%2Findex.php">
                             <i class='bx bxl-twitter bx-md'></i>
                         </a>
                     </li>
@@ -432,7 +432,7 @@ https://templatemo.com/tm-561-purple-buzz
             </div>
 
             <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
-                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h2>
+                <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h3>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
@@ -444,13 +444,13 @@ https://templatemo.com/tm-561-purple-buzz
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                        </li>
-                        <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
