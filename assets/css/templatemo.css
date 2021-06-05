@@ -11,8 +11,8 @@ Table of contents
 2. Main Nav
 3. Home
 4. About
-5. Work
-6. Single Work
+5. work
+6. Single work
 7. Pricing
 8. Contact
 --------------------------------------------- */
@@ -280,13 +280,29 @@ ul {
 }
 
 
-/* Work */
+/* work */
 
 
-/* Singel Work */
+/* Singel work */
 
 #work_single_banner {
-    background-image: url('./../img/works/our-work-01.jpg');
+    background-image: url('./../img/gallery/stationary_distribution/1.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#track_single_banner {
+    background-image: url('./../img/gallery/track_distribution/1.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#blood_single_banner {
+    background-image: url('./../img/gallery/blood_donation/4.jpg');
     background-position: center center;
     background-size: cover;
     height: 100%;

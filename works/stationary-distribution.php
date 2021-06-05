@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>Odyssey Nepal - Work Detail Page</title>
+    <title>Odyssey Nepal - Stationary Distribution Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="apple-touch-icon" href="assets/img/apple-icon.png"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo.png">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="../assets/css/boxicon.min.css" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> -->
     <!-- Load Tempalte CSS -->
-    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="../assets/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
 <!--
     
 TemplateMo 561 Purple Buzz
@@ -29,9 +29,9 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.php">
+            <a class="navbar-brand h1" href="../index.php">
                 <!-- <i class='bx bx-buildings bx-sm text-dark'></i> -->
-                <img class="nav_logo" src="./assets/img/logo.png">
+                <img class="nav_logo" src="../assets/img/logo.png">
                 <span class="odyssey h4">Odyssey</span> <span class="odyssey h4">Nepal</span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,22 +42,22 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.php">Home</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="../index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="../about.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallery</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="../gallery.php">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="../our-team.php">Our Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="departments.php">Departments</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="../departments.php">Departments</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.php">Contact</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="../contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -101,7 +101,7 @@ https://templatemo.com/tm-561-purple-buzz
 </div>
 <!-- End Banner Hero -->
 
-<!-- Start Work Sigle -->
+<!-- Start work Sigle -->
 <section class="container py-5">
 
     <div class="row pt-5">
@@ -115,14 +115,15 @@ https://templatemo.com/tm-561-purple-buzz
 
     <div class="row justify-content-center pb-4">
         <div class="col-lg-8">
-            <div id="templatemo-slide-link-target" class="card mb-3">
-                <img class="img-fluid border rounded" src="./assets/img/gallery\stationary_distribution\1.jpg" alt="Card image cap">
-            </div>
+                <div id="templatemo-slide-link-target" class="card mb-3">
+                    <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Card image cap">
+                </div>
+            </a>
             <div class="worksingle-slide-footer row">
 
                 <!--Start Controls-->
                 <div class="col-1 align-self-center">
-                    <a href="#multi-item-example" role="button" data-bs-slide="prev">
+                    <a href="#" role="button" data-bs-slide="prev">
                         <i class='bx bxs-chevron-left bx-sm text-dark'></i>
                     </a>
                 </div>
@@ -137,13 +138,13 @@ https://templatemo.com/tm-561-purple-buzz
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col">
-                                    <a class="templatemo-slide-link" href="./assets/img/gallery/stationary_distribution/1.jpg">
-                                        <img class="img-fluid border rounded" src="./assets/img/gallery/stationary_distribution/1.jpg" alt="Product Image">
+                                    <a class="templatemo-slide-link" href="../assets/img/gallery/stationary_distribution/1.jpg">
+                                        <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Product Image">
                                     </a>
                                 </div>
                                 <div class="col">
-                                    <a class="templatemo-slide-link" href="./assets/img/gallery/stationary_distribution/2.jpg">
-                                        <img class="img-fluid border rounded" src="./assets/img/gallery/stationary_distribution/2.jpg" alt="Product Image">
+                                    <a class="templatemo-slide-link" href="../assets/img/gallery/stationary_distribution/2.jpg">
+                                        <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/2.jpg" alt="Product Image">
                                     </a>
                                 </div>
                             </div>
@@ -189,7 +190,7 @@ https://templatemo.com/tm-561-purple-buzz
 
                 <!--Start Controls-->
                 <div class="col-1 align-self-center text-end">
-                    <a href="#multi-item-example" role="button" data-bs-slide="next">
+                    <a href="#" role="button" data-bs-slide="next">
                         <i class='bx bxs-chevron-right bx-sm text-dark'></i>
                     </a>
                 </div>
@@ -245,7 +246,7 @@ https://templatemo.com/tm-561-purple-buzz
     <!-- End Comment -->
 
 </section>
-<!-- End Work Sigle -->
+<!-- End work Sigle -->
 
 <!-- Start Related Post -->
 <article class="container-fluid bg-light">
@@ -257,8 +258,8 @@ https://templatemo.com/tm-561-purple-buzz
 
 
                     <div class="col-sm-6 col-lg-4 mb-5">
-                        <a href="#" class="related-content card text-decoration-none overflow-hidden">
-                            <img class="related-img card-img-top" src="./assets/img/gallery/tack_distribution/3.jpg" alt="Card image cap">
+                        <a href="track-distribution.php" class="related-content card text-decoration-none overflow-hidden">
+                            <img class="related-img card-img-top" src="../assets/img/gallery/track_distribution/3.jpg" alt="Card image cap">
                             <div class="related-body card-body p-4">
                                 <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Distribution Program</h5>
                                 <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -276,12 +277,12 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 mb-5">
-                        <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                            <img class="related-img card-img-top" src="./assets/img/related-post-02.jpg" alt="Card image cap">
+                        <a href="blood-donation.php" class="related-content card text-decoration-none overflow-hidden">
+                            <img class="related-img card-img-top" src="../assets/img/gallery/blood_donation/3.jpg" alt="Card image cap">
                             <div class="related-body card-body p-4">
-                                <h5 class="card-title h6 m-0 semi-bold-600 text-dark">App Development</h5>
+                                <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Blood Donation</h5>
                                 <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                    Tempor incididunt ut labore et dolore.
+                                    Yearly blood donation program organized by Odyssey Nepal. 2020 A.D.
                                 </p>
                                 <div class="d-flex justify-content-between">
                                     <span class="text-primary light-300">Read more</span>
@@ -295,7 +296,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                     <div class="col-sm-6 col-lg-4 mb-5">
                         <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                            <img class="related-img card-img-top" src="./assets/img/related-post-03.jpg" alt="Card image cap">
+                            <img class="related-img card-img-top" src="../assets/img/related-post-03.jpg" alt="Card image cap">
                             <div class="related-body card-body p-4">
                                 <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
                                 <p class="card-text pt-2 mb-1 light-300 text-dark">
@@ -325,9 +326,9 @@ https://templatemo.com/tm-561-purple-buzz
             <div class="row py-4">
 
                 <div class="col-lg-4 col-12 align-left">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="../index.php">
                         <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
-                        <img class="nav_logo" src="./assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
+                        <img class="nav_logo" src="../assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
                         <span class="text-light h5">Odyssey</span> <span class="text-light h5 semi-bold-600">Nepal</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
@@ -356,22 +357,22 @@ https://templatemo.com/tm-561-purple-buzz
                     <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h3>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="../index.php">Home</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="../about.php">About Us</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="../gallery.php">Gallery</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="../our-team.php">Our Team</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="../departments.php">Departments</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="../contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -413,9 +414,9 @@ https://templatemo.com/tm-561-purple-buzz
 
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <!-- Load jQuery require for Page Script -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
     <!-- Page Script -->
     <script>
         $(window).load(function() {
@@ -429,9 +430,9 @@ https://templatemo.com/tm-561-purple-buzz
         });
     </script>
     <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
+    <script src="../assets/js/templatemo.js"></script>
     <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+    <script src="../assets/js/custom.js"></script>
 
 </body>
 

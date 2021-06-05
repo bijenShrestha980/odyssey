@@ -50,7 +50,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.php">Gallery</a>
+                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="gallery.php">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="our-team.php">Our Team</a>
@@ -194,7 +194,7 @@ https://templatemo.com/tm-561-purple-buzz
                     </a>
                 </li>
                 <li class="h5 mb-0">Lakpa Ki Sherpa</li>
-                <li>Social Worker</li>
+                <li>Social worker</li>
             </ul>
         </div>
         <div class="team-member col-md-3">
@@ -440,7 +440,7 @@ https://templatemo.com/tm-561-purple-buzz
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.php">Gallery</a>
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="gallery.php">Gallery</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
