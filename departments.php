@@ -90,6 +90,7 @@ https://templatemo.com/tm-561-purple-buzz
   <section class="container pb-5">
     <h2 class="h2 py-5 text-center">Our Depatrments</h2>
     <h5 class="h3 pb-3 px-4 text-center">Central Executive Committee</h5>
+
     <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/pujan.jpg" alt="Card image">
@@ -113,8 +114,6 @@ https://templatemo.com/tm-561-purple-buzz
                 <li>President</li>
             </ul>
         </div>
-    </div>
-    <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/eruna.jpeg" alt="Card image">
             <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
@@ -231,6 +230,7 @@ https://templatemo.com/tm-561-purple-buzz
 <!-- Start Department of Communication and Information Technology -->
 <section class="container pb-5">
     <h5 class="h3 pb-3 px-4 text-center">Department of Communication and Information Technology</h5>
+
     <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/bijen.jpg" alt="Card image">
@@ -254,8 +254,6 @@ https://templatemo.com/tm-561-purple-buzz
                 <li>Department Head</li>
             </ul>
         </div>
-    </div>
-    <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/prajwol.jpg" alt="Card image">
             <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
@@ -433,69 +431,69 @@ https://templatemo.com/tm-561-purple-buzz
 
             <div class="col-lg-5 col-md-4 my-sm-0 mt-4">
                 <h3 class="h4 pb-lg-3 text-light light-300">Quick Links</h3>
-                    <ul class="list-unstyled text-light light-300">
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="gallery.php">gallery</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.php">Home</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.php">About Us</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="gallery.php">gallery</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="our-team.php">Our Team</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="departments.php">Departments</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                    <h2 class="h4 pb-lg-3 text-light light-300">For Contact</h2>
-                    <ul class="list-unstyled text-light light-300">
-                        <li class="pb-2">
-                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:+977 980-8429293">+977 980-8429293</a>
-                        </li>
-                        <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:odysseynepal@outlook.com">odysseynepal@outlook.com</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">For Contact</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:+977 980-8429293">+977 980-8429293</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:odysseynepal@outlook.com">odysseynepal@outlook.com</a>
+                    </li>
+                </ul>
+            </div>
 
+        </div>
+    </div>
+
+    <div class="w-100 bg-primary py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center text-light light-300">
+                        © Copyright 2021 Odyssey Nepal. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center text-light light-300">
+                        Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>Bijen Shrestha</strong></a>
+                    </p>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="w-100 bg-primary py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-lg-6 col-sm-12">
-                        <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Odyssey Nepal. All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://templatemo.com/" target="_blank"><strong>Bijen Shrestha</strong></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+</footer>
+<!-- End Footer -->
 
-    </footer>
-    <!-- End Footer -->
-
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
-    <!-- Custom -->
-    <script src="assets/js/custom.js"></script>
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Templatemo -->
+<script src="assets/js/templatemo.js"></script>
+<!-- Custom -->
+<script src="assets/js/custom.js"></script>
 
 </body>
 

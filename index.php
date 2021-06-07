@@ -194,7 +194,7 @@ $db = mysqli_select_db($connection, "db");
         <section class="py-5">
             <div class="container">
                <div class="recent-work-header row text-center pb-5">
-                  <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Recent works</h2>
+                  <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Recent Works</h2>
               </div>
               <div class="row gy-5 g-lg-5 mb-4">
 
@@ -285,7 +285,7 @@ $db = mysqli_select_db($connection, "db");
 <section class="py-2 mb-5">
   <div class="container bg-light pt-5">
     <div class="recent-work-header row text-center pb-5">
-       <h2 class="col-md-6 m-auto h2 semi-bold-600 py-3">Social Sites</h2>
+       <h2 class="col-md-6 m-auto h2 semi-bold-600 py-3">Follow Our Activities</h2>
    </div>
 
    <div class="row gy-5 g-lg-5 mb-4">

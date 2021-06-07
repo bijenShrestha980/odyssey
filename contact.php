@@ -90,17 +90,17 @@ https://templatemo.com/tm-561-purple-buzz
         <div class="row align-items-center justify-content-between">
             <div class="contact-header col-lg-4" style="animation: transitionIn 2s;">
                 <h1 class="h2 pb-3 text-primary">Contact Us</h1>
-                <p class="light-300">
-                    <i class='bx-fw bx bx-home bx-sm'></i> Tokha-5, Kathmandu, Nepal
+                <p class="light-300 size">
+                    <i class='bx-fw bx bx-home bx-md' style="color: #000"></i> Tokha-5, Kathmandu, Nepal
                 </p>
-                <p class="light-300">
-                    <i class='bx-fw bx bx-phone bx-sm'></i> 01-5907305, 9808429293
+                <p class="light-300 size">
+                    <i class='bx-fw bx bx-phone bx-md' style="color: #000"></i> 01-5907305, 9808429293
                 </p>
-                <p class="light-300">
-                    <i class='bx-fw bx bx-mail-send bx-sm'></i><a class="text-decoration-none" href="mailto:odysseynepal@outlook.com"> odysseynepal@outlook.com</a>
+                <p class="light-300 size">
+                    <i class='bx-fw bx bx-mail-send bx-md' style="color: #000"></i><a class="text-decoration-none" href="mailto:odysseynepal@outlook.com"> odysseynepal@outlook.com</a>
                 </p>
-                <p class="light-300">
-                    <i class='bx-fw bx bxs-window-alt bx-sm'></i><a class="text-decoration-none" href="https://odsseynepal.org.np"> odsseynepal.org.np</a>
+                <p class="light-300 size">
+                    <i class='bx-fw bx bxs-window-alt bx-md' style="color: #000"></i><a class="text-decoration-none" href="https://odsseynepal.org.np"> odsseynepal.org.np</a>
                 </p>
                 <ul class="team-member-caption list-inline light-300">
                     <li class="list-inline-item m-0">
@@ -134,7 +134,7 @@ https://templatemo.com/tm-561-purple-buzz
     <h1 class="col-12 col-xl-8 h2 text-left text-primary pt-3 pb-5">Connect with us!</h1>
 
     <div class="row pb-4">
-        <div class="col-lg-4">
+        <div class="col-lg-7">
 
             <div class="contact row mb-4">
                 <div class="contact-icon col-lg-3 col-3">
@@ -143,9 +143,9 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                 </div>
                 <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
-                    <li class="h5 mb-0">Chief Secretary</li>
-                    <li class="text-muted">Mr. Anil Tamang</li>
-                    <li class="text-muted">+977-9808429293</li>
+                    <li class="h3 mb-0">Chief Secretary</li>
+                    <li class="text-primary h6">Mr. Anil Tamang</li>
+                    <li class="text-primary h6">+977-9808429293</li>
                 </ul>
             </div>
 
@@ -156,9 +156,9 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                 </div>
                 <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
-                    <li class="h5 mb-0">Communication and IT Department</li>
-                    <li class="text-muted">Mr. Bijen Shrestha (HOD)</li>
-                    <li class="text-muted">+977-9843504673</li>
+                    <li class="h3 mb-0">Communication and IT Department</li>
+                    <li class="text-primary h6">Mr. Bijen Shrestha (HOD)</li>
+                    <li class="text-primary h6">+977-9843504673</li>
                 </ul>
             </div>
 
@@ -169,9 +169,9 @@ https://templatemo.com/tm-561-purple-buzz
                     </div>
                 </div>
                 <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
-                    <li class="h5 mb-0">Treasurer</li>
-                    <li class="text-muted">Mr. Yelung Bahing Rai (HOD)</li>
-                    <li class="text-muted">+977-9813037570</li>
+                    <li class="h3 mb-0">Treasurer</li>
+                    <li class="text-primary h6">Mr. Yelung Bahing Rai (HOD)</li>
+                    <li class="text-primary h6">+977-9813037570</li>
                 </ul>
             </div>
 

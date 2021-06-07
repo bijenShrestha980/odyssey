@@ -9,7 +9,7 @@
     <!-- Load Require CSS -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
-    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="../assets/css/boxicon.min.css" rel="stylesheet">
     <!-- Load Tempalte CSS -->
     <link rel="stylesheet" href="../assets/css/templatemo.css">
     <!-- Custom CSS -->
@@ -162,7 +162,6 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="col-md-12 text-left justify-content-center">
                     <div class="row gx-5">
 
-
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="stationary-distribution.php" class="related-content card text-decoration-none overflow-hidden">
                                 <img class="related-img card-img-top" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Card image cap">
@@ -201,12 +200,12 @@ https://templatemo.com/tm-561-purple-buzz
                             </a>
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
-                            <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="../assets/img/related-post-03.jpg" alt="Card image cap">
+                            <a href="#" class="related-content card text-decoration-none overflow-hidden">
+                                <img class="related-img card-img-top" src="../assets/img/gallery/covid_relief/1.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
-                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
+                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Covid Relief</h5>
                                     <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                        Consectetur adipiscing elit.
+                                        Food Materials Distribution to Covid-19 relief fund Initiated by Tokha Municipality. 2020 A.D.
                                     </p>
                                     <div class="d-flex justify-content-between">
                                         <span class="text-primary light-300">Read more</span>
@@ -233,7 +232,6 @@ https://templatemo.com/tm-561-purple-buzz
 
                     <div class="col-lg-4 col-12 align-left">
                         <a class="navbar-brand" href="../index.php">
-                            <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
                             <img class="nav_logo" src="../assets/img/logo.png" style="background: #fff;border: 1px solid white; border-radius: 40px;">
                             <span class="text-light h5">Odyssey</span> <span class="text-light h5 semi-bold-600">Nepal</span>
                         </a>

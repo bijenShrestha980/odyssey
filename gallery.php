@@ -107,6 +107,7 @@ https://templatemo.com/tm-561-purple-buzz
 
 <!-- Start Our work -->
 <section class="container py-5">
+    <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5 text-center">See Our Gallery</h2>
     <!-- <div class="row justify-content-center my-5">
         <div class="filter-btns shadow-md rounded-pill text-center col-auto">
             <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active" data-filter=".project" href="#">All</a>
