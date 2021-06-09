@@ -89,7 +89,7 @@ https://templatemo.com/tm-561-purple-buzz
   <!-- Start Central Executive Committee -->
   <section class="container pb-5">
     <h2 class="h2 py-5 text-center">Our Depatrments</h2>
-    <h5 class="h3 pb-3 px-4 text-center">Central Executive Committee</h5>
+    <h5 class="h3 pb-3 px-4 text-center">Founding/ Executive Committe</h5>
 
     <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
@@ -114,6 +114,8 @@ https://templatemo.com/tm-561-purple-buzz
                 <li>President</li>
             </ul>
         </div>
+    </div>
+    <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/eruna.jpeg" alt="Card image">
             <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
@@ -153,6 +155,18 @@ https://templatemo.com/tm-561-purple-buzz
                 </li>
                 <li class="h5 mb-0">Yelung Bahing Rai</li>
                 <li>Treasure</li>
+            </ul>
+        </div>
+        <div class="team-member col-md-3">
+            <img class="team-member-img img-fluid p-4" src="./assets/img/members/user.png" alt="Card image">
+            <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                <li class="list-inline-item m-0">
+                    <a class="" target="_blank" href="https://www.facebook.com/Kuroko.lama">
+                        <i class='bx bxl-facebook-square bx-md'></i>
+                    </a>
+                </li>
+                <li class="h5 mb-0">Amit Lama</li>
+                <li>Executive Member</li>
             </ul>
         </div>
     </div>
@@ -210,25 +224,11 @@ https://templatemo.com/tm-561-purple-buzz
         </ul>
     </div>
 </div>
-<div class="row" style="justify-content: center;">
-    <div class="team-member col-md-3">
-        <img class="team-member-img img-fluid p-4" src="./assets/img/members/user.png" alt="Card image">
-        <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-            <li class="list-inline-item m-0">
-                <a class="" target="_blank" href="https://www.facebook.com/Kuroko.lama">
-                    <i class='bx bxl-facebook-square bx-md'></i>
-                </a>
-            </li>
-            <li class="h5 mb-0">Amit Lama</li>
-            <li>Executive Member</li>
-        </ul>
-    </div>
-</div>
 </section>
 <!--  Close Central Executive Committee -->
 
 <!-- Start Department of Communication and Information Technology -->
-<section class="container pb-5">
+<section class="container py-5">
     <h5 class="h3 pb-3 px-4 text-center">Department of Communication and Information Technology</h5>
 
     <div class="row" style="justify-content: center;">
@@ -254,6 +254,8 @@ https://templatemo.com/tm-561-purple-buzz
                 <li>Department Head</li>
             </ul>
         </div>
+    </div>
+    <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/prajwol.jpg" alt="Card image">
             <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">

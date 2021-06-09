@@ -93,7 +93,7 @@ https://templatemo.com/tm-561-purple-buzz
 
         <div class="creative-content row py-3">
             <div class="col-lg-12">
-                <p class="text-muted col-lg-12 light-300" style="text-align: justify;">
+                <p class="col-lg-12 light-300" style="text-align: justify;">
                     We are proud to be a part of Odyssey Nepal. We believe that Odyssey Nepal can play a vital role for the
                     change of our society as it has been playing since it's establishment. We are very much happy to help
                     odysseyians in the time of need. Odyssey Nepal has always helped people in need. We would like to
@@ -103,13 +103,13 @@ https://templatemo.com/tm-561-purple-buzz
                     days. We all on behalf of Advisor committee would like to ensure you all that we will always be there to
                     lead and guide you to your destination.
                 </p>
-                <p class="text-muted col-lg-12 light-300" style="text-align: justify;">
+                <p class="col-lg-12 light-300" style="text-align: justify;">
                     Best wishes for upcoming days.
                 </p>
-                <p class="text-muted col-lg-12 light-300" style="text-align: justify;">
+                <p class="col-lg-12 light-300" style="text-align: justify;">
                     Sincerely,
                 </p>
-                <p class="text-muted col-lg-12 light-300" style="text-align: justify;">
+                <p class="col-lg-12 light-300" style="text-align: justify;">
                     Advisor Committee
                 </p>
             </div>
@@ -281,6 +281,8 @@ https://templatemo.com/tm-561-purple-buzz
                 <li>President</li>
             </ul>
         </div>
+    </div>
+    <div class="row" style="justify-content: center;">
         <div class="team-member col-md-3">
             <img class="team-member-img img-fluid p-4" src="./assets/img/members/eruna.jpeg" alt="Card image">
             <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
@@ -320,6 +322,18 @@ https://templatemo.com/tm-561-purple-buzz
                 </li>
                 <li class="h5 mb-0">Yelung Bahing Rai</li>
                 <li>Treasure</li>
+            </ul>
+        </div>
+        <div class="team-member col-md-3">
+            <img class="team-member-img img-fluid p-4" src="./assets/img/members/user.png" alt="Card image">
+            <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                <li class="list-inline-item m-0">
+                    <a class="" target="_blank" href="https://www.facebook.com/Kuroko.lama">
+                        <i class='bx bxl-facebook-square bx-md'></i>
+                    </a>
+                </li>
+                <li class="h5 mb-0">Amit Lama</li>
+                <li>Executive Member</li>
             </ul>
         </div>
     </div>
@@ -373,20 +387,6 @@ https://templatemo.com/tm-561-purple-buzz
                 </a>
             </li>
             <li class="h5 mb-0">Liza Rai</li>
-            <li>Executive Member</li>
-        </ul>
-    </div>
-</div>
-<div class="row" style="justify-content: center;">
-    <div class="team-member col-md-3">
-        <img class="team-member-img img-fluid p-4" src="./assets/img/members/user.png" alt="Card image">
-        <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
-            <li class="list-inline-item m-0">
-                <a class="" target="_blank" href="https://www.facebook.com/Kuroko.lama">
-                    <i class='bx bxl-facebook-square bx-md'></i>
-                </a>
-            </li>
-            <li class="h5 mb-0">Amit Lama</li>
             <li>Executive Member</li>
         </ul>
     </div>
