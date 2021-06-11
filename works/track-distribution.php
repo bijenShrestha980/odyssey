@@ -159,7 +159,24 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="col-md-12 text-left justify-content-center">
                     <div class="row gx-5">
 
-
+                        <div class="col-sm-6 col-lg-4 mb-5">
+                            <a href="covid-relief.php" class="related-content card text-decoration-none overflow-hidden">
+                                <img class="related-img card-img-top" src="../assets/img/gallery/covid_relief/1.jpg" alt="Card image cap">
+                                <div class="related-body card-body p-4">
+                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Covid Relief</h5>
+                                    <p class="card-text pt-2 mb-1 light-300 text-dark">
+                                        Food Materials Distribution to Covid-19 relief fund Initiated by Tokha Municipality. 2020 A.D.
+                                    </p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="text-primary light-300">Read more</span>
+                                        <div class="light-300">
+                                            <i class='bx-fw bx bx-heart me-1'></i>31
+                                            <i class='bx-fw bx bx-chat    ms-1 me-1'></i>2
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
                             <a href="stationary-distribution.php" class="related-content card text-decoration-none overflow-hidden">
                                 <img class="related-img card-img-top" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Card image cap">
@@ -191,24 +208,6 @@ https://templatemo.com/tm-561-purple-buzz
                                         <div class="light-300">
                                             <i class='bx-fw bx bx-heart me-1'></i>11
                                             <i class='bx-fw bx bx-chat    ms-1 me-1'></i>9
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-lg-4 mb-5">
-                            <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                                <img class="related-img card-img-top" src="../assets/img/related-post-03.jpg" alt="Card image cap">
-                                <div class="related-body card-body p-4">
-                                    <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
-                                    <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                        Consectetur adipiscing elit.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <span class="text-primary light-300">Read more</span>
-                                        <div class="light-300">
-                                            <i class='bx-fw bx bx-heart me-1'></i>31
-                                            <i class='bx-fw bx bx-chat    ms-1 me-1'></i>2
                                         </div>
                                     </div>
                                 </div>

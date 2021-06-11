@@ -200,7 +200,7 @@ https://templatemo.com/tm-561-purple-buzz
                             </a>
                         </div>
                         <div class="col-sm-6 col-lg-4 mb-5">
-                            <a href="#" class="related-content card text-decoration-none overflow-hidden">
+                            <a href="covid-relief.php" class="related-content card text-decoration-none overflow-hidden">
                                 <img class="related-img card-img-top" src="../assets/img/gallery/covid_relief/1.jpg" alt="Card image cap">
                                 <div class="related-body card-body p-4">
                                     <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Covid Relief</h5>

@@ -115,43 +115,43 @@ https://templatemo.com/tm-561-purple-buzz
 
     <div class="row justify-content-center pb-4">
         <div class="col-lg-8">
-                <div id="templatemo-slide-link-target" class="card mb-3">
-                    <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Card image cap">
-                </div>
-            </a>
-            <div class="worksingle-slide-footer row">
+            <div id="templatemo-slide-link-target" class="card mb-3">
+                <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Card image cap">
+            </div>
+        </a>
+        <div class="worksingle-slide-footer row">
 
-                <!--Start Controls-->
-                <div class="col-1 align-self-center">
-                    <a href="#" role="button" data-bs-slide="prev">
-                        <i class='bx bxs-chevron-left bx-sm text-dark'></i>
-                    </a>
-                </div>
-                <!--End Controls-->
+            <!--Start Controls-->
+            <div class="col-1 align-self-center">
+                <a href="#" role="button" data-bs-slide="prev">
+                    <i class='bx bxs-chevron-left bx-sm text-dark'></i>
+                </a>
+            </div>
+            <!--End Controls-->
 
-                <!--Start Carousel Wrapper-->
-                <div id="multi-item-example" class="col-10 carousel slide" data-bs-ride="carousel">
-                    <!--Start Slides-->
-                    <div class="carousel-inner" role="listbox">
+            <!--Start Carousel Wrapper-->
+            <div id="multi-item-example" class="col-10 carousel slide" data-bs-ride="carousel">
+                <!--Start Slides-->
+                <div class="carousel-inner" role="listbox">
 
-                        <!--First slide-->
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col">
-                                    <a class="templatemo-slide-link" href="../assets/img/gallery/stationary_distribution/1.jpg">
-                                        <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Product Image">
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a class="templatemo-slide-link" href="../assets/img/gallery/stationary_distribution/2.jpg">
-                                        <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/2.jpg" alt="Product Image">
-                                    </a>
-                                </div>
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <a class="templatemo-slide-link" href="../assets/img/gallery/stationary_distribution/1.jpg">
+                                    <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/1.jpg" alt="Product Image">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a class="templatemo-slide-link" href="../assets/img/gallery/stationary_distribution/2.jpg">
+                                    <img class="img-fluid border rounded" src="../assets/img/gallery/stationary_distribution/2.jpg" alt="Product Image">
+                                </a>
                             </div>
                         </div>
-                        <!--/.First slide-->
+                    </div>
+                    <!--/.First slide-->
 
-                        <!--Second slide-->
+                    <!--Second slide-->
                         <!-- <div class="carousel-item">
                             <div class="row">
                                 <div class="col">
@@ -277,6 +277,24 @@ https://templatemo.com/tm-561-purple-buzz
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 mb-5">
+                        <a href="covid-relief.php" class="related-content card text-decoration-none overflow-hidden">
+                            <img class="related-img card-img-top" src="../assets/img/gallery/covid_relief/1.jpg" alt="Card image cap">
+                            <div class="related-body card-body p-4">
+                                <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Covid Relief</h5>
+                                <p class="card-text pt-2 mb-1 light-300 text-dark">
+                                    Food Materials Distribution to Covid-19 relief fund Initiated by Tokha Municipality. 2020 A.D.
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary light-300">Read more</span>
+                                    <div class="light-300">
+                                        <i class='bx-fw bx bx-heart me-1'></i>31
+                                        <i class='bx-fw bx bx-chat    ms-1 me-1'></i>2
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-5">
                         <a href="blood-donation.php" class="related-content card text-decoration-none overflow-hidden">
                             <img class="related-img card-img-top" src="../assets/img/gallery/blood_donation/3.jpg" alt="Card image cap">
                             <div class="related-body card-body p-4">
@@ -289,24 +307,6 @@ https://templatemo.com/tm-561-purple-buzz
                                     <div class="light-300">
                                         <i class='bx-fw bx bx-heart me-1'></i>11
                                         <i class='bx-fw bx bx-chat    ms-1 me-1'></i>9
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 mb-5">
-                        <a href="#" class="related-content card text-decoration-none overflow-hidden h-100">
-                            <img class="related-img card-img-top" src="../assets/img/related-post-03.jpg" alt="Card image cap">
-                            <div class="related-body card-body p-4">
-                                <h5 class="card-title h6 m-0 semi-bold-600 text-dark">Digital Marketing</h5>
-                                <p class="card-text pt-2 mb-1 light-300 text-dark">
-                                    Consectetur adipiscing elit.
-                                </p>
-                                <div class="d-flex justify-content-between">
-                                    <span class="text-primary light-300">Read more</span>
-                                    <div class="light-300">
-                                        <i class='bx-fw bx bx-heart me-1'></i>31
-                                        <i class='bx-fw bx bx-chat    ms-1 me-1'></i>2
                                     </div>
                                 </div>
                             </div>
