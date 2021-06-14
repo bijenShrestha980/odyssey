@@ -200,11 +200,11 @@ $db = mysqli_select_db($connection, "db");
 
                   <!-- Start Recent work -->
                   <div class="col-md-4 mb-3">
-                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-works-01.jpg" alt="Card image">
+                     <a href="works/blood-donation.php" class="recent-work card border-0 shadow-lg overflow-hidden">
+                        <img class="recent-work-img card-img" src="./assets/img/gallery/blood_donation/3.jpg" alt="Card image">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                              <h3 class="card-title light-300">Our Group</h3>
+                              <h3 class="card-title light-300">Blood Donation</h3>
                               <!-- <p class="card-text">Ullamco laboris nisi ut aliquip ex</p> -->
                           </div>
                       </div>
@@ -213,11 +213,11 @@ $db = mysqli_select_db($connection, "db");
 
               <!-- Start Recent work -->
               <div class="col-md-4 mb-3">
-                 <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                    <img class="recent-work-img card-img" src="./assets/img/recent-works-02.jpg" alt="Card image">
+                 <a href="works/covid-relief.php" class="recent-work card border-0 shadow-lg overflow-hidden">
+                    <img class="recent-work-img card-img" src="./assets/img/gallery/covid_relief/1.jpg" alt="Card image">
                     <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                        <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                          <h3 class="card-title light-300">Connectivity</h3>
+                          <h3 class="card-title light-300">Covid Relief</h3>
                           <!-- <p class="card-text">Psum officia anim id est laborum.</p> -->
                       </div>
                   </div>
@@ -226,11 +226,11 @@ $db = mysqli_select_db($connection, "db");
 
           <!-- Start Recent work -->
           <div class="col-md-4 mb-3">
-             <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
+             <a href="works/meet.php" class="recent-work card border-0 shadow-lg overflow-hidden">
                 <img class="recent-work-img card-img" src="./assets/img/recent-works-03.jpg" alt="Card image">
                 <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                    <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                      <h3 class="card-title light-300">Meeting</h3>
+                      <h3 class="card-title light-300">Meet</h3>
                       <!-- <p class="card-text">Sum dolor sit consencutur</p> -->
                   </div>
               </div>

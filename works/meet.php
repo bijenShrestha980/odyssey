@@ -117,10 +117,20 @@ https://templatemo.com/tm-561-purple-buzz
                                     </a>
                                 </div>
                                 <div class="col">
-                                <a class="templatemo-slide-link" href="../assets/img/gallery/meet/2.jpg">
-                                    <img class="img-fluid border rounded" src="../assets/img/gallery/meet/2.jpg" alt="Product Image">
-                                </a>
-                            </div>
+                                    <a class="templatemo-slide-link" href="../assets/img/gallery/meet/2.jpg">
+                                        <img class="img-fluid border rounded" src="../assets/img/gallery/meet/2.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="templatemo-slide-link" href="../assets/img/gallery/meet/3.jpg">
+                                        <img class="img-fluid border rounded" src="../assets/img/gallery/meet/3.jpg" alt="Product Image">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="templatemo-slide-link" href="../assets/img/gallery/meet/4.jpg">
+                                        <img class="img-fluid border rounded" src="../assets/img/gallery/meet/4.jpg" alt="Product Image">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <!--/.First slide-->
