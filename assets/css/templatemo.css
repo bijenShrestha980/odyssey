@@ -1,20 +1,19 @@
 /*
 
-TemplateMo 561 Purple Buzz
-
-https://templatemo.com/tm-561-purple-buzz
-
 ---------------------------------------------
 Table of contents
 ------------------------------------------------
 1. Typography
 2. Main Nav
+3. Dropdown
 3. Home
 4. About
 5. work
 6. Single work
 7. Pricing
 8. Contact
+9. Login
+10. Signup
 --------------------------------------------- */
 
 html {
@@ -42,6 +41,7 @@ body {
 p,
 a {
     font-weight: 400;
+    color: #0057a9;
 }
 
 .h2 {
@@ -63,6 +63,10 @@ ul {
     padding: 0;
 }
 
+.text-secondary {
+    color: #0057a9 !important;
+}
+
 .regular-400 {
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 400;
@@ -79,7 +83,7 @@ ul {
     width: 150px;
     display: block;
     position: absolute;
-    border-bottom: 5px solid #6266ea;
+    border-bottom: 5px solid #0057a9;
     padding-top: .5em;
 }
 
@@ -88,11 +92,53 @@ ul {
     margin-left: -75px;
 }
 
+.text-primary{
+    color: #0057a9 !important;
+}
+
+.btn-outline-primary {
+    border-color: #0057a9;
+    color: #0057a9;
+}
+
+.bg-secondary {
+    background-color: #0057a9 !important;
+}
+
+.bg-primary {
+    background-color: #01325e !important;
+}
+
+.btn-secondary {
+    background-color: #0057a9;
+    border-color: #0057a9;
+}
+
+.btn-secondary:hover {
+    background-color: #01325e;
+}
+
+.btn-primary {
+    background-color: #0057a9;
+    border-color: #0057a9;
+}
+
+.btn-primary:hover {
+    background-color: #01325e;
+}
+
+.btn-link {
+    color: #0057a9;
+}
 
 /* Main Nav */
+.nav-link {
+    padding: .5rem .5rem !important;
+}
 
 #main_nav .nav-item .nav-link:hover {
     color: #fff;
+    background-color: #0057a9 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -107,11 +153,10 @@ ul {
 }
 
 .odyssey {
-    color: #045cad
+    color: #0057a9
 }
 
-
-/*dropdown*/
+/*Dropdown*/
 
 .dropdown {
     display: inline-block;
@@ -123,15 +168,25 @@ ul {
     width: 150px;
     border-radius: 20px;
     text-align: center;
-    left: -40px;
+    left: -100px;
     top: 40px;
     animation: transitionIn 0.5s;
     z-index: 1;
+    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
+}
+
+.dropdown .dropdown-content ul li a{
+    color: #0057a9;
+}
+
+.dropdown .dropdown-content ul li a:hover {
+    background-color: #0057a9;
+    color: #fff;
 }
 
 
@@ -152,7 +207,7 @@ ul {
 
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-    color: #6266ea !important;
+    color: #0057a9 !important;
     text-decoration: none;
     font-size: 4em;
 }
@@ -163,7 +218,7 @@ ul {
 
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-    background-color: #6266ea !important;
+    background-color: #0057a9 !important;
 }
 
 .service-wrapper .service-footer {
@@ -370,7 +425,7 @@ ul {
 }
 .size{
     font-size: 20px;
-    color: #4232c2;
+    color: #0057a9 ;
 }
 
 
@@ -397,8 +452,8 @@ ul {
 /* Facebook Iframe*/
 
 .fb_iframe_widget iframe{
-        width: auto !important;
-    }
+    width: auto !important;
+}
 
 
 /* Instagram Iframe */
@@ -409,3 +464,4 @@ a.feed-powered-by-es{
 .embedsocial-hashtag-iframe{
     height: 405px !important;
 }
+

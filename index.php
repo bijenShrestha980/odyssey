@@ -18,13 +18,7 @@
    <link rel="stylesheet" href="assets/css/responsive.css">
    <!-- Custom CSS -->
    <link rel="stylesheet" href="assets/css/custom.css">
-    <!--
-    
-TemplateMo 561 Purple Buzz
 
-https://templatemo.com/tm-561-purple-buzz
-
--->
 <?php
 session_start();
 $name = "";
